@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+function addToCart(x)
+{
+	alert("Item Successfully Added to Cart...");
+	document.getElementById("mycart").innerHTML+="<br>"+x;
+}
+
+</script>
+
+<style>
+.cart1
+{
+	position:fixed;
+	background-color:#f8f8f8;
+	right:0px;
+	top:0px;
+	overflow:hidden;
+}
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="cart1" id="mycart">
+	<div id="mycart" class="cartcount"> </div>
+	<img src="img/cart.jpg" />
+</div>
+
+<center><button id="addText" onclick="addToCart('pname')"> Add to Cart </button></center>
+
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>ƙwalisa </title>
+		<script src="js/myJScript.js"></script>
+		<link rel="stylesheet" href="css/myStyles.css">
+	</head>
+
+<body bgcolor="#fff">
+	<br><br><br>
+	
+	<h1 id="title" name="title">ƙwalisa Tauraruwa</h1>
+	
+	<div id="logo_area" name="logo_area" class="logo_area" align="left-side">
+			<img id="logo" name="logo" class="logo" src="M:\MobileWebDevelopment\classWork\week6\img\kwalisa.png" alt="logo image">
+	</div>
+	
+	<ul>
+		<li class="menu-item"><a href="#" class="drp"> Toddlers </a>
+		<div class="menu-content">
+			<a href="#">Tops</a><br>
+			<a href="#">Bottoms</a><br>
+			<a href="#">Shoes</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp"> Kids </a>	
+		<div class="menu-content">
+			<a href="#">T-shirt</a><br>
+			<a href="#">Pants</a><br>
+			<a href="#">Slipers</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Women </a>	
+		<div class="menu-content">
+			<a href="#">Dress</a><br>
+			<a href="#">Bottoms</a><br>
+			<a href="#">Shoes</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Men </a>	
+		<div class="menu-content">
+			<a href="#">Suite</a><br>
+			<a href="#">Shirt</a><br>
+			<a href="#">Jeans</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Accessories </a>	
+		<div class="menu-content">
+			<a href="#">Earings</a><br>
+			<a href="#">Perfums</a><br>
+			<a href="#">Bags</a><br>
+		</div>
+		</li>
+	
+	</ul>
+	
+	<div class="cart1" id="mycart">
+	<div id="mycart" class="cartcount"> </div>
+	<img src="img/cart.jpg" />
+	</div>
+	
+	<table width="50" align="center">
+		<tr>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('1')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\2.jpg" alt="dress" width="400" height="400" /><br>Black Dress
+				</a>
+				</p>
+			 
+				<div id="popup1" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\2.jpg" width="400" height="400" /><br>Carlos_Fashion, Women Black and White Dress<br> $50<br><br>
+					<a href = "javascript:void(0)" onclick = "popupclose('1')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade1" class="black_content"></div>
+
+				<center><button class="button" id="addText" onclick="addToCart('Black Dress')"> Add to Cart </button></center>
+			</td>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('2')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\4.jpg" alt="dress" width="400" height="400" /><br>Unisex Jeans
+				</a>
+				</p>
+			 
+				<div id="popup2" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\4.jpg" alt="jeans" width="400" height="400" /><br>Carlos_Fashion, Women Black and White Dress<br> $50<br><br>
+					<a href = "javascript:void(0)" onclick = "popupclose('2')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade2" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('Unisex Jeans')"> Add to Cart </button></center>
+			</td>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('3')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\8.jpg" alt="dress" width="400" height="400" /><br>White Shoes
+				</a>
+				</p>
+			 
+				<div id="popup3" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\8.jpg" alt="jeans" width="400" height="400" /><br>Carlos_Fashion, Women Black and White Dress<br> $50<br><br>
+					<a href = "javascript:void(0)" onclick = "popupclose('3')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade3" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('White Shoes')"> Add to Cart </button></center>
+			</td>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('4')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\44.jpg" alt="white shoe" width="400" height="400" /><br>Brown Suite
+				</a>
+				</p>
+			 
+				<div id="popup4" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\44.jpg" alt="men's suite" width="400" height="400" /><br>TheCoolest, Brown Men Suite with Tie<br> $589<br><br>
+					<a href = "javascript:void(0)" onclick = "popupclose('4')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade4" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('Brown Suite')"> Add to Cart </button></center>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('5')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\11.webp" alt="baby clothes" width="400" height="400" /><br>Baby Double Set
+				</a>
+				</p>
+			 
+				<div id="popup5" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\11.webp" alt="baby clothes" height="400" /><br>Carlos_Fashion, Baby Long Sleves Double Set<br> $30<br>
+					<a href = "javascript:void(0)" onclick = "popupclose('5')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade5" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('Baby Double Set')"> Add to Cart </button></center>
+			</td>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('6')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\22.webp" alt="baby clothes" width="400" height="400" /><br>Baby Set
+				</a>
+				</p>
+			 
+				<div id="popup6" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\22.webp" alt="baby clothes" width="400" height="400" /><br>Hunter_Fashion, Unisex Baby Button_downs<br> $45<br>
+					<a href = "javascript:void(0)" onclick = "popupclose('6')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade6" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('Baby Set')"> Add to Cart </button></center>
+			</td>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('7')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\55.jfif" alt="golden dress" width="400" height="400" /><br>Golden Dress
+				</a>
+				</p>
+			 
+				<div id="popup7" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\55.jfif" alt="golden dress" width="400" height="400" /><br>Hunter_Fashion, Yellow Classy Dress<br> $89<br><br>
+					<a href = "javascript:void(0)" onclick = "popupclose('7')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade7" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('Golden Dress')"> Add to Cart </button></center>
+			</td>
+			<td>
+				<p align=center> 
+				<a href = "javascript:void(0)" onclick ="popupfunction('8')" class=linktext>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\66.webp" alt="brown hills" width="400" height="400" /><br>Brown Hills
+				</a>
+				</p>
+			 
+				<div id="popup8" class="white_content">
+				<p align=center><br><br>
+					<img src="M:\MobileWebDevelopment\classWork\week6\img\66.webp" alt="brown hills" width="400" height="400" /><br>TheCoolest, Brown Women Hill with Pearls<br> $102<br><br>
+					<a href = "javascript:void(0)" onclick = "popupclose('8')" class=linktext>close window</a>
+					</p>
+				</div>
+				
+				<div id="fade8" class="black_content"></div>
+				
+				<center><button class="button" id="addText" onclick="addToCart('Brown Hills')"> Add to Cart </button></center>
+			</td>
+		</tr>
+	</table>
+	</center>
+	</body>
+</html>
+
+
